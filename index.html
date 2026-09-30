@@ -376,121 +376,228 @@
     </div>
   </section>
 
-  <section id="resources" class="py-16 sm:py-20 bg-deep-900/40 border-y border-white/10">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <section id="resources" class="py-16 sm:py-24 relative overflow-hidden bg-deep-900/60 border-y border-white/10">
+    <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAzNGMtMS4xIDAtMiAuOS0yIDJzLjkgMiAyIDJjMS4xIDAgMi0uOSAyLTJzLS45LTItMi0yeiIgZmlsbD0iI2M1OGIzOCIgZmlsbC1vcGFjaXR5PSIwLjA1Ii8+PC9nPjwvc3ZnPg==')] opacity-50 pointer-events-none"></div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
       
       <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
         <div class="space-y-3 max-w-2xl">
-          <span class="text-xs font-bold tracking-widest uppercase text-brand-400">Official Publications & Tools</span>
-          <h2 class="text-2xl sm:text-4xl font-serif font-bold text-white">Songbooks, Charts & Handbooks</h2>
-          <p class="text-slate-400 text-xs sm:text-base">
-            Authored and compiled by Rev. Dr. Sunny Prasad to serve local church worship teams, worship leaders, and music students across India and abroad.
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-500/10 text-brand-300 text-[10px] font-bold tracking-widest uppercase border border-brand-500/20">
+            <i class="ph-bold ph-books"></i> Publications & Tools
+          </div>
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-white tracking-tight">Songbooks & Handbooks</h2>
+          <p class="text-slate-400 text-sm sm:text-base leading-relaxed">
+            Authored and compiled by Rev. Dr. Sunny Prasad. Essential resources equipped with music theory, accurate chord diagrams, and multilingual lyrics to serve local churches worldwide.
           </p>
         </div>
 
-        <div class="flex items-center gap-3">
-          <a href="https://pages.razorpay.com/pl_J4aY3SyL9nvgeF/view" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-5 py-2.5 rounded-xl text-sm font-semibold bg-deep-850 hover:bg-deep-800 text-brand-300 border border-brand-500/30 flex items-center justify-center gap-2 transition-all">
-            <i class="ph-bold ph-buildings"></i>
-            <span>Buy Church Bulk Bundle</span>
+        <div class="flex flex-col sm:flex-row items-center gap-3">
+          <a href="#contact" class="w-full sm:w-auto px-5 py-3 rounded-xl text-sm font-semibold bg-deep-850 hover:bg-deep-800 text-slate-300 border border-white/10 flex items-center justify-center gap-2 transition-all">
+            <i class="ph-bold ph-envelope"></i>
+            <span>Contact for Distribution</span>
+          </a>
+          <a href="https://pages.razorpay.com/pl_J4aY3SyL9nvgeF/view" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-5 py-3 rounded-xl text-sm font-semibold bg-brand-500/10 hover:bg-brand-500/20 text-brand-300 border border-brand-500/30 flex items-center justify-center gap-2 transition-all">
+            <i class="ph-bold ph-stack"></i>
+            <span>Buy Multiple Resources</span>
           </a>
         </div>
       </div>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         
-        <!-- Product 1: English Song Book -->
-        <div class="bg-deep-900 rounded-2xl border border-white/10 p-5 flex flex-col justify-between hover:border-brand-500/40 transition-all group">
+        <!-- Product 1: Stringed Praise (English) -->
+        <div class="bg-deep-900/80 backdrop-blur-sm rounded-2xl border border-white/10 p-4 sm:p-5 flex flex-col justify-between hover:border-brand-500/40 hover:-translate-y-1.5 hover:shadow-[0_10px_30px_-15px_rgba(197,139,56,0.2)] transition-all duration-300 group">
           <div>
-            <div class="aspect-[3/4] rounded-xl flex items-center justify-center relative overflow-hidden mb-4 bg-deep-950">
-               <img src="image/english-book.jpg.jpg" alt="English Song Book" class="class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"">
-              <span class="absolute top-2 left-2 px-2 py-0.5 rounded text-[10px] font-bold bg-brand-500 text-deep-950 uppercase z-10">Bestseller</span>
+            <div class="aspect-[3/4] rounded-xl relative overflow-hidden mb-5 bg-deep-950 group/image border border-white/5">
+               <img src="english-book.jpg.jpg" alt="Stringed Praise" class="w-full h-full object-cover transition-transform duration-700 group-hover/image:scale-110 opacity-90 group-hover/image:opacity-100">
+               
+               <div class="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
+                 <span class="px-2.5 py-1 rounded-md text-[10px] font-bold bg-brand-500 text-deep-950 uppercase shadow-md backdrop-blur-md">English Vol 1</span>
+               </div>
+              
+              <div class="absolute inset-0 bg-deep-950/70 backdrop-blur-sm opacity-0 group-hover/image:opacity-100 transition-opacity duration-300 flex items-center justify-center z-20">
+                <button onclick="openPreviewModal('Stringed Praise - Vol 1', ['SP_P1.png', 'SP_P2.png', 'SP_P3.png', 'SP_P4.png'], 'https://pages.razorpay.com/pl_J4aY3SyL9nvgeF/view')" class="px-4 py-2.5 rounded-xl bg-white text-deep-950 text-xs font-bold flex items-center gap-2 transform translate-y-4 group-hover/image:translate-y-0 transition-all duration-300 hover:bg-brand-400 hover:scale-105 shadow-xl">
+                  <i class="ph-bold ph-eye text-base"></i> Look Inside
+                </button>
+              </div>
             </div>
-            <h3 class="font-bold text-white text-base mb-1">English Song Book</h3>
-            <p class="text-xs text-slate-400 mb-3">Comprehensive collection of timeless hymns and modern contemporary worship chords.</p>
-            <span class="inline-block text-xs font-semibold text-brand-300 bg-brand-500/10 px-2 py-0.5 rounded">Printed Spiral Book</span>
+
+            <h3 class="font-bold text-white text-base mb-1.5 leading-tight">Stringed Praise</h3>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed line-clamp-3">Over 100 popular English songs with accurate chords, music theory, and finger placements for guitar & keyboard.</p>
           </div>
-          <div class="pt-4 mt-4 border-t border-white/10 flex items-center justify-between">
-            <span class="text-xl font-bold text-white">₹300</span>
-            <a href="https://pages.razorpay.com/pl_J4aY3SyL9nvgeF/view" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-xl text-xs font-bold bg-brand-500 hover:bg-brand-400 text-deep-950 flex items-center gap-1.5 transition-all shadow-md">
-              <i class="ph ph-credit-card"></i>
-              <span>Buy Now</span>
+          <div class="pt-4 mt-auto border-t border-white/10 flex items-center justify-between gap-3">
+            <span class="text-lg sm:text-xl font-bold text-brand-300 font-mono">₹300</span>
+            <a href="https://pages.razorpay.com/pl_J4aY3SyL9nvgeF/view" target="_blank" rel="noopener noreferrer" class="flex-1 px-3 py-2 rounded-xl text-xs font-bold bg-brand-500 hover:bg-brand-400 text-deep-950 flex items-center justify-center gap-1.5 transition-all shadow-md active:scale-95">
+              <i class="ph-bold ph-shopping-bag"></i> Buy Now
             </a>
           </div>
         </div>
 
-        <!-- Product 2: Kannada Song Book -->
-        <div class="bg-deep-900 rounded-2xl border border-white/10 p-5 flex flex-col justify-between hover:border-brand-500/40 transition-all group">
+        <!-- Product 2: Thanti Sthuthi (Kannada) -->
+        <div class="bg-deep-900/80 backdrop-blur-sm rounded-2xl border border-white/10 p-4 sm:p-5 flex flex-col justify-between hover:border-brand-500/40 hover:-translate-y-1.5 hover:shadow-[0_10px_30px_-15px_rgba(197,139,56,0.2)] transition-all duration-300 group">
           <div>
-            <div class="aspect-[3/4] rounded-xl flex items-center justify-center relative overflow-hidden mb-4 bg-deep-950">
-               <img src="image/Kannada-book.jpg" alt="Kannada Song Book" class=class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"">
-              <span class="absolute top-2 left-2 px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500 text-white uppercase z-10">Vernacular</span>
+            <div class="aspect-[3/4] rounded-xl relative overflow-hidden mb-5 bg-deep-950 group/image border border-white/5">
+               <img src="image_636086.jpg" alt="Thanti Sthuthi" class="w-full h-full object-cover transition-transform duration-700 group-hover/image:scale-110 opacity-90 group-hover/image:opacity-100" style="object-position: center 30%;">
+               
+               <div class="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
+                 <span class="px-2.5 py-1 rounded-md text-[10px] font-bold bg-emerald-500 text-white uppercase shadow-md backdrop-blur-md">Kannada Vol 1</span>
+               </div>
+              
+              <div class="absolute inset-0 bg-deep-950/70 backdrop-blur-sm opacity-0 group-hover/image:opacity-100 transition-opacity duration-300 flex items-center justify-center z-20">
+                <button onclick="openPreviewModal('Thanti Sthuthi - Vol 1', [], 'https://pages.razorpay.com/thantisthuthi')" class="px-4 py-2.5 rounded-xl bg-white text-deep-950 text-xs font-bold flex items-center gap-2 transform translate-y-4 group-hover/image:translate-y-0 transition-all duration-300 hover:bg-brand-400 hover:scale-105 shadow-xl">
+                  <i class="ph-bold ph-eye text-base"></i> Look Inside
+                </button>
+              </div>
             </div>
-            <h3 class="font-bold text-white text-base mb-1">Kannada Song Book</h3>
-            <p class="text-xs text-slate-400 mb-3">Standard chord sheets and lyrics for popular Kannada worship choruses & traditional geethegalu.</p>
-            <span class="inline-block text-xs font-semibold text-brand-300 bg-brand-500/10 px-2 py-0.5 rounded">Printed Spiral Book</span>
+
+            <h3 class="font-bold text-white text-base mb-1.5 leading-tight">Thanti Sthuthi</h3>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed line-clamp-3">Over 100 popular Kannada worship songs and choruses, complete with music theory and fret diagrams.</p>
           </div>
-          <div class="pt-4 mt-4 border-t border-white/10 flex items-center justify-between">
-            <span class="text-xl font-bold text-white">₹300</span>
-            <a href="https://pages.razorpay.com/thantisthuthi" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-xl text-xs font-bold bg-brand-500 hover:bg-brand-400 text-deep-950 flex items-center gap-1.5 transition-all shadow-md">
-              <i class="ph ph-credit-card"></i>
-              <span>Buy Now</span>
+          <div class="pt-4 mt-auto border-t border-white/10 flex items-center justify-between gap-3">
+            <span class="text-lg sm:text-xl font-bold text-brand-300 font-mono">₹300</span>
+            <a href="https://pages.razorpay.com/thantisthuthi" target="_blank" rel="noopener noreferrer" class="flex-1 px-3 py-2 rounded-xl text-xs font-bold bg-brand-500 hover:bg-brand-400 text-deep-950 flex items-center justify-center gap-1.5 transition-all shadow-md active:scale-95">
+              <i class="ph-bold ph-shopping-bag"></i> Buy Now
             </a>
           </div>
         </div>
 
-        <!-- Product 3: Tamil Song Book -->
-        <div class="bg-deep-900 rounded-2xl border border-white/10 p-5 flex flex-col justify-between hover:border-brand-500/40 transition-all group">
+        <!-- Product 3: Thudhi Thalam (Tamil) -->
+        <div class="bg-deep-900/80 backdrop-blur-sm rounded-2xl border border-white/10 p-4 sm:p-5 flex flex-col justify-between hover:border-brand-500/40 hover:-translate-y-1.5 hover:shadow-[0_10px_30px_-15px_rgba(197,139,56,0.2)] transition-all duration-300 group">
           <div>
-            <div class="aspect-[3/4] rounded-xl flex items-center justify-center relative overflow-hidden mb-4 bg-deep-950">
-               <img src="image_636086.jpg" alt="Tamil Song Book" class="absolute w-[300%] max-w-none bottom-[-2%] left-[1.5%] object-cover group-hover:scale-105 transition-transform duration-500 rounded-lg shadow-lg" style="clip-path: inset(62% 67% 0 0); height: 300%;">
+            <div class="aspect-[3/4] rounded-xl relative overflow-hidden mb-5 bg-deep-950 group/image border border-white/5">
+               <img src="image_636086.jpg" alt="Thudhi Thalam" class="w-full h-full object-cover transition-transform duration-700 group-hover/image:scale-110 opacity-90 group-hover/image:opacity-100" style="object-position: center 60%;">
+               
+               <div class="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
+                 <span class="px-2.5 py-1 rounded-md text-[10px] font-bold bg-blue-500 text-white uppercase shadow-md backdrop-blur-md">Tamil Vol 1</span>
+               </div>
+              
+              <div class="absolute inset-0 bg-deep-950/70 backdrop-blur-sm opacity-0 group-hover/image:opacity-100 transition-opacity duration-300 flex items-center justify-center z-20">
+                <button onclick="openPreviewModal('Thudhi Thalam - Vol 1', [], 'https://pages.razorpay.com/thudhithalam')" class="px-4 py-2.5 rounded-xl bg-white text-deep-950 text-xs font-bold flex items-center gap-2 transform translate-y-4 group-hover/image:translate-y-0 transition-all duration-300 hover:bg-brand-400 hover:scale-105 shadow-xl">
+                  <i class="ph-bold ph-eye text-base"></i> Look Inside
+                </button>
+              </div>
             </div>
-            <h3 class="font-bold text-white text-base mb-1">Tamil Song Book</h3>
-            <p class="text-xs text-slate-400 mb-3">Accurate western chord notation and romanized titles for Tamil worship classics.</p>
-            <span class="inline-block text-xs font-semibold text-brand-300 bg-brand-500/10 px-2 py-0.5 rounded">Printed Spiral Book</span>
+
+            <h3 class="font-bold text-white text-base mb-1.5 leading-tight">Thudhi Thalam</h3>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed line-clamp-3">A collection of 100+ popular Tamil worship classics from current and old artists, arranged with precise chords.</p>
           </div>
-          <div class="pt-4 mt-4 border-t border-white/10 flex items-center justify-between">
-            <span class="text-xl font-bold text-white">₹300</span>
-            <a href="https://pages.razorpay.com/thudhithalam" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-xl text-xs font-bold bg-brand-500 hover:bg-brand-400 text-deep-950 flex items-center gap-1.5 transition-all shadow-md">
-              <i class="ph ph-credit-card"></i>
-              <span>Buy Now</span>
+          <div class="pt-4 mt-auto border-t border-white/10 flex items-center justify-between gap-3">
+            <span class="text-lg sm:text-xl font-bold text-brand-300 font-mono">₹300</span>
+            <a href="https://pages.razorpay.com/thudhithalam" target="_blank" rel="noopener noreferrer" class="flex-1 px-3 py-2 rounded-xl text-xs font-bold bg-brand-500 hover:bg-brand-400 text-deep-950 flex items-center justify-center gap-1.5 transition-all shadow-md active:scale-95">
+              <i class="ph-bold ph-shopping-bag"></i> Buy Now
             </a>
           </div>
         </div>
 
-        <!-- Product 4: Keyboards Book -->
-        <div class="bg-deep-900 rounded-2xl border border-white/10 p-5 flex flex-col justify-between hover:border-brand-500/40 transition-all group">
+        <!-- Product 4: Ultimate Guitar Chord Dictionary -->
+        <div class="bg-deep-900/80 backdrop-blur-sm rounded-2xl border border-white/10 p-4 sm:p-5 flex flex-col justify-between hover:border-brand-500/40 hover:-translate-y-1.5 hover:shadow-[0_10px_30px_-15px_rgba(197,139,56,0.2)] transition-all duration-300 group">
           <div>
-            <div class="aspect-[3/4] rounded-xl flex items-center justify-center relative overflow-hidden mb-4 bg-deep-950">
-               <img src="image_636086.jpg" alt="Keyboards Handbook" class="absolute w-[300%] max-w-none bottom-[0%] left-[34%] -translate-x-1/2 object-cover group-hover:scale-105 transition-transform duration-500 rounded-lg shadow-lg" style="clip-path: inset(62% 33% 0% 33%); height: 300%;">
+            <div class="aspect-[3/4] rounded-xl relative overflow-hidden mb-5 bg-deep-950 group/image border border-white/5">
+               <img src="image_636086.jpg" alt="Ultimate Guitar Chord Dictionary" class="w-full h-full object-cover transition-transform duration-700 group-hover/image:scale-110 opacity-90 group-hover/image:opacity-100">
+               
+               <div class="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
+                 <span class="px-2.5 py-1 rounded-md text-[10px] font-bold bg-indigo-500 text-white uppercase shadow-md backdrop-blur-md">Reference</span>
+               </div>
+              
+              <div class="absolute inset-0 bg-deep-950/70 backdrop-blur-sm opacity-0 group-hover/image:opacity-100 transition-opacity duration-300 flex items-center justify-center z-20">
+                <button onclick="openPreviewModal('Ultimate Guitar Chord Dictionary', [], '#contact')" class="px-4 py-2.5 rounded-xl bg-white text-deep-950 text-xs font-bold flex items-center gap-2 transform translate-y-4 group-hover/image:translate-y-0 transition-all duration-300 hover:bg-brand-400 hover:scale-105 shadow-xl">
+                  <i class="ph-bold ph-eye text-base"></i> Look Inside
+                </button>
+              </div>
             </div>
-            <h3 class="font-bold text-white text-base mb-1">Keyboards Handbook</h3>
-            <p class="text-xs text-slate-400 mb-3">Foundational manual covering scales, chord charts, fingering exercises & worship pads.</p>
-            <span class="inline-block text-xs font-semibold text-brand-300 bg-brand-500/10 px-2 py-0.5 rounded">Instructional Manual</span>
+
+            <h3 class="font-bold text-white text-base mb-1.5 leading-tight">Guitar Chord Dictionary</h3>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed line-clamp-3">The ultimate library of all chords that can be played on an acoustic or electric guitar with exact fret diagrams.</p>
           </div>
-          <div class="pt-4 mt-4 border-t border-white/10 flex items-center justify-between">
-            <span class="text-xl font-bold text-white">₹200</span>
-            <a href="https://pages.razorpay.com/wkhandbook" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-xl text-xs font-bold bg-brand-500 hover:bg-brand-400 text-deep-950 flex items-center gap-1.5 transition-all shadow-md">
-              <i class="ph ph-credit-card"></i>
-              <span>Buy Now</span>
+          <div class="pt-4 mt-auto border-t border-white/10 flex items-center justify-between gap-3">
+            <span class="text-lg sm:text-xl font-bold text-brand-300 font-mono">₹250</span>
+            <a href="#contact" class="flex-1 px-3 py-2 rounded-xl text-xs font-bold bg-deep-850 hover:bg-deep-800 text-brand-400 border border-brand-500/30 flex items-center justify-center gap-1.5 transition-all shadow-md active:scale-95">
+              <i class="ph-bold ph-envelope"></i> Inquire
             </a>
           </div>
         </div>
 
-        <!-- Product 5: Drummers Book -->
-        <div class="bg-deep-900 rounded-2xl border border-white/10 p-5 flex flex-col justify-between hover:border-brand-500/40 transition-all group">
+        <!-- Product 5: Worship Drummers Handbook -->
+        <div class="bg-deep-900/80 backdrop-blur-sm rounded-2xl border border-white/10 p-4 sm:p-5 flex flex-col justify-between hover:border-brand-500/40 hover:-translate-y-1.5 hover:shadow-[0_10px_30px_-15px_rgba(197,139,56,0.2)] transition-all duration-300 group">
           <div>
-            <div class="aspect-[3/4] rounded-xl flex items-center justify-center relative overflow-hidden mb-4 bg-deep-950">
-               <img src="image_636086.jpg" alt="Drummers Handbook" class="absolute w-[300%] max-w-none bottom-[-2.5%] right-[32.5%] translate-x-1/2 object-cover group-hover:scale-105 transition-transform duration-500 rounded-lg shadow-lg" style="clip-path: inset(64% 0% 0% 67%); height: 300%;">
+            <div class="aspect-[3/4] rounded-xl relative overflow-hidden mb-5 bg-deep-950 group/image border border-white/5">
+               <img src="image_636086.jpg" alt="Worship Drummers Handbook" class="w-full h-full object-cover transition-transform duration-700 group-hover/image:scale-110 opacity-90 group-hover/image:opacity-100" style="object-position: right top;">
+               
+               <div class="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
+                 <span class="px-2.5 py-1 rounded-md text-[10px] font-bold bg-slate-200 text-deep-950 uppercase shadow-md backdrop-blur-md">Method Book</span>
+               </div>
+              
+              <div class="absolute inset-0 bg-deep-950/70 backdrop-blur-sm opacity-0 group-hover/image:opacity-100 transition-opacity duration-300 flex items-center justify-center z-20">
+                <button onclick="openPreviewModal('Worship Drummers Handbook', [], 'https://pages.razorpay.com/drumbook')" class="px-4 py-2.5 rounded-xl bg-white text-deep-950 text-xs font-bold flex items-center gap-2 transform translate-y-4 group-hover/image:translate-y-0 transition-all duration-300 hover:bg-brand-400 hover:scale-105 shadow-xl">
+                  <i class="ph-bold ph-eye text-base"></i> Look Inside
+                </button>
+              </div>
             </div>
-            <h3 class="font-bold text-white text-base mb-1">Drummers Handbook</h3>
-            <p class="text-xs text-slate-400 mb-3">Rudiments, dynamic markings, worship patterns, and kick/snare coordination exercises.</p>
-            <span class="inline-block text-xs font-semibold text-brand-300 bg-brand-500/10 px-2 py-0.5 rounded">Drum Method Book</span>
+
+            <h3 class="font-bold text-white text-base mb-1.5 leading-tight">Drummers Handbook</h3>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed line-clamp-3">A dedicated manual featuring rhythmic notations and different beats constructed for 100 popular sanctuary songs.</p>
           </div>
-          <div class="pt-4 mt-4 border-t border-white/10 flex items-center justify-between">
-            <span class="text-xl font-bold text-white">₹300</span>
-            <a href="https://pages.razorpay.com/drumbook" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-xl text-xs font-bold bg-brand-500 hover:bg-brand-400 text-deep-950 flex items-center gap-1.5 transition-all shadow-md">
-              <i class="ph ph-credit-card"></i>
-              <span>Buy Now</span>
+          <div class="pt-4 mt-auto border-t border-white/10 flex items-center justify-between gap-3">
+            <span class="text-lg sm:text-xl font-bold text-brand-300 font-mono">₹250</span>
+            <a href="https://pages.razorpay.com/drumbook" target="_blank" rel="noopener noreferrer" class="flex-1 px-3 py-2 rounded-xl text-xs font-bold bg-brand-500 hover:bg-brand-400 text-deep-950 flex items-center justify-center gap-1.5 transition-all shadow-md active:scale-95">
+              <i class="ph-bold ph-shopping-bag"></i> Buy Now
+            </a>
+          </div>
+        </div>
+
+        <!-- Product 6: Worship Keyboardists Handbook -->
+        <div class="bg-deep-900/80 backdrop-blur-sm rounded-2xl border border-white/10 p-4 sm:p-5 flex flex-col justify-between hover:border-brand-500/40 hover:-translate-y-1.5 hover:shadow-[0_10px_30px_-15px_rgba(197,139,56,0.2)] transition-all duration-300 group">
+          <div>
+            <div class="aspect-[3/4] rounded-xl relative overflow-hidden mb-5 bg-deep-950 group/image border border-white/5">
+               <img src="image_636086.jpg" alt="Worship Keyboardists Handbook" class="w-full h-full object-cover transition-transform duration-700 group-hover/image:scale-110 opacity-90 group-hover/image:opacity-100" style="object-position: left center;">
+               
+               <div class="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
+                 <span class="px-2.5 py-1 rounded-md text-[10px] font-bold bg-slate-200 text-deep-950 uppercase shadow-md backdrop-blur-md">Method Book</span>
+               </div>
+              
+              <div class="absolute inset-0 bg-deep-950/70 backdrop-blur-sm opacity-0 group-hover/image:opacity-100 transition-opacity duration-300 flex items-center justify-center z-20">
+                <button onclick="openPreviewModal('Worship Keyboardists Handbook', [], 'https://pages.razorpay.com/wkhandbook')" class="px-4 py-2.5 rounded-xl bg-white text-deep-950 text-xs font-bold flex items-center gap-2 transform translate-y-4 group-hover/image:translate-y-0 transition-all duration-300 hover:bg-brand-400 hover:scale-105 shadow-xl">
+                  <i class="ph-bold ph-eye text-base"></i> Look Inside
+                </button>
+              </div>
+            </div>
+
+            <h3 class="font-bold text-white text-base mb-1.5 leading-tight">Keyboardists Handbook</h3>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed line-clamp-3">An essential library of all contemporary chords alongside detailed hand positions and foundational scales.</p>
+          </div>
+          <div class="pt-4 mt-auto border-t border-white/10 flex items-center justify-between gap-3">
+            <span class="text-lg sm:text-xl font-bold text-brand-300 font-mono">₹250</span>
+            <a href="https://pages.razorpay.com/wkhandbook" target="_blank" rel="noopener noreferrer" class="flex-1 px-3 py-2 rounded-xl text-xs font-bold bg-brand-500 hover:bg-brand-400 text-deep-950 flex items-center justify-center gap-1.5 transition-all shadow-md active:scale-95">
+              <i class="ph-bold ph-shopping-bag"></i> Buy Now
+            </a>
+          </div>
+        </div>
+
+        <!-- Product 7: Essential Guitar Scales -->
+        <div class="bg-deep-900/80 backdrop-blur-sm rounded-2xl border border-white/10 p-4 sm:p-5 flex flex-col justify-between hover:border-brand-500/40 hover:-translate-y-1.5 hover:shadow-[0_10px_30px_-15px_rgba(197,139,56,0.2)] transition-all duration-300 group">
+          <div>
+            <div class="aspect-[3/4] rounded-xl relative overflow-hidden mb-5 bg-deep-950 group/image border border-white/5">
+               <img src="image_636086.jpg" alt="Essential Guitar Scales" class="w-full h-full object-cover transition-transform duration-700 group-hover/image:scale-110 opacity-90 group-hover/image:opacity-100">
+               
+               <div class="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
+                 <span class="px-2.5 py-1 rounded-md text-[10px] font-bold bg-rose-500 text-white uppercase shadow-md backdrop-blur-md">Advanced Study</span>
+               </div>
+              
+              <div class="absolute inset-0 bg-deep-950/70 backdrop-blur-sm opacity-0 group-hover/image:opacity-100 transition-opacity duration-300 flex items-center justify-center z-20">
+                <button onclick="openPreviewModal('Essential Guitar Scales', [], '#contact')" class="px-4 py-2.5 rounded-xl bg-white text-deep-950 text-xs font-bold flex items-center gap-2 transform translate-y-4 group-hover/image:translate-y-0 transition-all duration-300 hover:bg-brand-400 hover:scale-105 shadow-xl">
+                  <i class="ph-bold ph-eye text-base"></i> Look Inside
+                </button>
+              </div>
+            </div>
+
+            <h3 class="font-bold text-white text-base mb-1.5 leading-tight">Essential Guitar Scales</h3>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed line-clamp-3">A dedicated manual for guitarists aspiring to play beyond the basics. Master melodic solos and lead lines.</p>
+          </div>
+          <div class="pt-4 mt-auto border-t border-white/10 flex items-center justify-between gap-3">
+            <span class="text-lg sm:text-xl font-bold text-brand-300 font-mono">₹250</span>
+            <a href="#contact" class="flex-1 px-3 py-2 rounded-xl text-xs font-bold bg-deep-850 hover:bg-deep-800 text-brand-400 border border-brand-500/30 flex items-center justify-center gap-1.5 transition-all shadow-md active:scale-95">
+              <i class="ph-bold ph-envelope"></i> Inquire
             </a>
           </div>
         </div>
@@ -1007,6 +1114,64 @@
     </div>
   </div>
 
+  <!-- Preview Modal Overlay -->
+  <div id="preview-modal" class="fixed inset-0 bg-deep-950/90 backdrop-blur-md z-[100] hidden items-center justify-center p-4 sm:p-6 transition-all opacity-0">
+    <div class="bg-deep-900 border border-white/10 rounded-3xl w-full max-w-4xl max-h-[95vh] flex flex-col shadow-2xl relative transform scale-95 transition-transform duration-300" id="preview-modal-content">
+      
+      <!-- Header -->
+      <div class="flex items-center justify-between p-4 sm:p-6 border-b border-white/10 bg-deep-900/50 rounded-t-3xl">
+        <div>
+          <span class="text-[10px] font-bold tracking-widest uppercase text-brand-400 bg-brand-500/10 px-2 py-0.5 rounded border border-brand-500/20">Book Preview</span>
+          <h3 id="preview-title" class="text-lg sm:text-xl font-bold text-white mt-1.5 font-serif">Book Name</h3>
+        </div>
+        <button onclick="closePreviewModal()" class="w-10 h-10 flex items-center justify-center rounded-xl bg-white/5 text-slate-400 hover:text-white hover:bg-white/10 transition-colors focus:outline-none">
+          <i class="ph-bold ph-x text-lg"></i>
+        </button>
+      </div>
+
+      <!-- Body / Content -->
+      <div class="flex-1 overflow-y-auto p-4 sm:p-8 flex flex-col items-center bg-deep-950 rounded-b-3xl sm:rounded-none">
+        
+        <!-- Dynamic Image Container (Scrollable stack) -->
+        <div id="preview-image-container" class="w-full max-w-2xl flex flex-col items-center space-y-6 hidden pb-8">
+           <!-- Images injected via JS -->
+        </div>
+
+        <!-- Shown when no valid image source is passed -->
+        <div id="preview-placeholder" class="text-center p-12 sm:p-20 space-y-4 bg-deep-900 border border-white/5 rounded-2xl w-full max-w-2xl">
+          <div class="w-20 h-20 mx-auto rounded-full bg-white/5 flex items-center justify-center mb-4">
+            <i class="ph-duotone ph-book-open-text text-4xl text-slate-400"></i>
+          </div>
+          <div>
+            <p class="text-base sm:text-lg font-bold text-white">Sample pages loading...</p>
+            <p class="text-xs sm:text-sm text-slate-400 mt-2 max-w-sm mx-auto leading-relaxed">
+              We are currently digitizing preview pages for this publication. Please check back later or contact us directly to request a sample PDF.
+            </p>
+          </div>
+        </div>
+
+      </div>
+      
+      <!-- Footer Actions -->
+      <div class="p-4 sm:p-6 border-t border-white/10 bg-deep-950 flex flex-col sm:flex-row items-center justify-between rounded-b-3xl gap-4">
+        <div class="text-center sm:text-left w-full sm:w-auto">
+          <p class="text-sm font-bold text-white">Ready to master your instrument?</p>
+          <p class="text-xs text-slate-400 mt-1">Order your physical spiral-bound copy today.</p>
+        </div>
+        <div class="flex gap-3 w-full sm:w-auto">
+          <button onclick="closePreviewModal()" class="flex-1 sm:flex-none px-6 py-3 rounded-xl text-sm font-bold text-slate-300 bg-white/5 hover:bg-white/10 transition-colors">
+            Close Preview
+          </button>
+          <button id="preview-buy-btn" class="flex-1 sm:flex-none px-8 py-3 rounded-xl text-sm font-bold bg-gradient-to-r from-brand-500 to-brand-400 hover:brightness-110 text-deep-950 flex items-center justify-center gap-2 transition-all shadow-lg shadow-brand-500/25">
+            <i class="ph-bold ph-shopping-cart-simple"></i>
+            <span>Buy Full Book</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
   <script>
     const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzGu9VaTsxtub_yVm0VUmaCH17wrkQ2bEILL2G90imR7NVPcmJ1Tr0SdNo_11QMyv2D/exec";
 
@@ -1177,6 +1342,73 @@
       showToast('Order Received', 'Thank you! Our order coordinator will contact you via WhatsApp with shipping details.');
       cart = [];
       updateCartUI();
+    }
+
+    /* Preview Modal Logic */
+    function openPreviewModal(title, imageArray, buyLink) {
+      const modal = document.getElementById('preview-modal');
+      const content = document.getElementById('preview-modal-content');
+      document.getElementById('preview-title').innerText = title;
+      
+      const imgContainer = document.getElementById('preview-image-container');
+      const placeholder = document.getElementById('preview-placeholder');
+      const buyBtn = document.getElementById('preview-buy-btn');
+
+      // Update the buy button link based on the specific product
+      buyBtn.onclick = () => {
+        if(buyLink.startsWith('#')) {
+           closePreviewModal();
+           document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
+        } else {
+           window.open(buyLink, '_blank');
+        }
+      };
+
+      // Render Image Stack
+      imgContainer.innerHTML = '';
+      if (Array.isArray(imageArray) && imageArray.length > 0) {
+        imageArray.forEach(src => {
+          const img = document.createElement('img');
+          img.src = src;
+          img.className = "w-full h-auto bg-white rounded-xl shadow-2xl border border-white/10 object-contain";
+          imgContainer.appendChild(img);
+        });
+        imgContainer.classList.remove('hidden');
+        placeholder.classList.add('hidden');
+      } else {
+        imgContainer.classList.add('hidden');
+        placeholder.classList.remove('hidden');
+      }
+
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      
+      // Small delay to allow CSS transitions to trigger
+      setTimeout(() => {
+        modal.classList.remove('opacity-0');
+        content.classList.remove('scale-95');
+        content.classList.add('scale-100');
+      }, 10);
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closePreviewModal() {
+      const modal = document.getElementById('preview-modal');
+      const content = document.getElementById('preview-modal-content');
+      
+      modal.classList.add('opacity-0');
+      content.classList.remove('scale-100');
+      content.classList.add('scale-95');
+      
+      // Wait for the transition duration before fully hiding
+      setTimeout(() => {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        document.body.style.overflow = 'auto';
+        
+        // Reset image
+        document.getElementById('preview-image').src = '';
+      }, 300);
     }
 
     /* Enrollment Modal Triggers */
